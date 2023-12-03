@@ -1,0 +1,67 @@
+#root {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+nav p {
+  background-color: #aeaeae92;
+  padding: 2px 3px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+nav button {
+  background-color: blueviolet;
+  color:aliceblue;
+  border: 0;
+  padding: 8px 12px;
+  border-radius: 2px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.forms label {
+  display: block;
+}
+
+.forms label span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.forms form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.forms form input {
+  padding: 5px 10px;
+  font-family: inherit;
+  font-size: 18px;
+}
+
+.forms form button {
+  align-self: flex-start;
+  background-color: blueviolet;
+  color:aliceblue;
+  border: 0;
+  padding: 8px 12px;
+  border-radius: 2px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
